@@ -208,61 +208,30 @@ p {
 
 
 /* Font Variables */
-
-.dark-grey-background h2 {
+.dark-grey-background h2, .dark-grey-background h3, .dark-grey-background h4,.dark-grey-background p, .black-background h2, .black-background h3, .black-background h4, .black-background p {
 	color: #fff;
 }
-
-.black-background h2 {
-	color: #fff;
-}
-
-.dark-grey-background h3 {
-	color: #fff;
-}
-
-.black-background h3 {
-	color: #fff;
-}
-
-.dark-grey-background h4 {
-	color: #fff;
-}
-
-.black-background h4 {
-	color: #fff;
-}
-
-.dark-grey-background p {
-	color: #fff;
-}
-
-.black-background p {
-	color: #fff;
-}
-
-
 /* Font Variables */
 
 
 /* DIV info */
 
-div.full-width-grey {
+.full-width-grey {
 	width: 100%;
 	background-color: #efefef;
 }
 
-div.full-width-black {
+.full-width-black {
 	width: 100%;
 	background-color: #1D1D1B;
 }
 
-div.full-width-dark-grey {
+.full-width-dark-grey {
 	width: 100%;
 	background-color: #303030;
 }
 
-div.container {
+.container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -364,7 +333,7 @@ button.light-disabled-button {
 
 /* Contained Horizontal Line */
 
-div.horizontal-line {
+.horizontal-line {
 	width: 90%;
 	height: 1px;
 	background-color: #1D1D1B;
@@ -377,7 +346,7 @@ div.horizontal-line {
 
 /* Full Width Horizontal Line */
 
-div.black-full-width-separator {
+.black-full-width-separator {
 	width: 100%;
 	height: 1px;
 	background-color: #1D1D1B;
@@ -803,13 +772,10 @@ section.book-now input[type=checkbox]:hover {
 	cursor: pointer;
 }
 
-section.book-now input[type=checkbox]:focus {
+section.book-now input[type=checkbox]:focus, section.book-now input[type=checkbox]:checked {
 	outline: none;
 }
 
-section.book-now input[type=checkbox]:checked {
-	outline: none;
-}
 
 section.book-now input[type=submit] {
 	background-color: #1D1D1B;
@@ -881,6 +847,17 @@ article.t-c a:hover {
 	border-bottom: 1px solid #939393;
 }
 
+div.column-text {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 60px; /* Firefox */
+    column-gap: 60px;
+    -moz-column-fill: auto; /* Firefox */
+    column-fill: auto;
+    margin-bottom: 50px;
+}
 
 /* Terms & Conditions */
 
